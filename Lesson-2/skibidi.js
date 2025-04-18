@@ -54,14 +54,22 @@
 // console.log(3 === 3);
 
 // Logical operator
-let x = 44;
-let y = 23;
-let z = 33;
+// let x = 44;
+// let y = 23;
+// let z = 33;
 
-console.log(z > y && x > y && y < z);
-console.log(z > y && x > y && y > z);
-console.log(z < y || x < y || y < z);
-console.log(z < y || x < y || y > z);
+// console.log(z > y && x > y && y < z);
+// console.log(z > y && x > y && y > z);
+// console.log(z < y || x < y || y < z);
+// console.log(z < y || x < y || y > z);
 
-console.log(!(x < y));
-console.log(!(x > y));
+// console.log(!(x < y));
+// console.log(!(x > y));
+
+// i will not do this again i am already facing a lot of trouble
+// now its time to stop
+
+// let userNumber = prompt("Enter your number: ");
+// if (userNumber > 0) console.log("The number is positive");
+// else if (userNumber < 0) console.log("The number is negative");
+// else console.log("The number is zero");
