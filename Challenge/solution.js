@@ -29,16 +29,6 @@ salami = 500;
 total =
   carService + groceries + entertainment + tuitionFees + homeRent + salami;
 
-// Overspending Message
-// let overSpendingMessage = "";
-// if (userExpenses > userIncome) {
-//   overSpendingMessage = "Warning: You are spending more then your income.";
-// }
-
-// if (overSpendingMessage) {
-//   console.log(overSpendingMessage);
-// }
-
 // Total expense
 let userExpenses = total;
 console.log(`User Expense: $${userExpenses}`); // User Expense
@@ -57,3 +47,10 @@ else if (savings >= 500) console.log("Good! You have a decent savings amount.");
 else if (savings >= 100)
   console.log("Needs Improvement. Consider reducing expenses.");
 else console.log("Critical! Your savings are too low!");
+
+// Overspending Message
+let overSpendingMessage = " ";
+if (userExpenses > userIncome) {
+  overSpendingMessage = "Warning: You are spending more then your income.";
+}
+console.log(overSpendingMessage);
