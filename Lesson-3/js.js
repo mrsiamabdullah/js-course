@@ -83,39 +83,63 @@
 // console.log(number);
 
 // switch, case, break, default
-const numberSpelling = prompt("Enter a single number between 1-9: ");
+// const numberSpelling = prompt("Enter a single number between 1-9: ");
 
-switch (numberSpelling) {
-  case "0":
-    console.log("Zero");
-    break;
-  case "1":
-    console.log("One");
-    break;
-  case "2":
-    console.log("Two");
-    break;
-  case "3":
-    console.log("Three");
-    break;
-  case "4":
-    console.log("Four");
-    break;
-  case "5":
-    console.log("Five");
-    break;
-  case "6":
-    console.log("Six");
-    break;
-  case "7":
-    console.log("Seven");
-    break;
-  case "8":
-    console.log("Eight");
-    break;
-  case "9":
-    console.log("Nine");
-    break;
-  default:
-    console.log("Not a valid number!");
-}
+// switch (numberSpelling) {
+//   case "0":
+//     console.log("Zero");
+//     break;
+//   case "1":
+//     console.log("One");
+//     break;
+//   case "2":
+//     console.log("Two");
+//     break;
+//   case "3":
+//     console.log("Three");
+//     break;
+//   case "4":
+//     console.log("Four");
+//     break;
+//   case "5":
+//     console.log("Five");
+//     break;
+//   case "6":
+//     console.log("Six");
+//     break;
+//   case "7":
+//     console.log("Seven");
+//     break;
+//   case "8":
+//     console.log("Eight");
+//     break;
+//   case "9":
+//     console.log("Nine");
+//     break;
+//   default:
+//     console.log("Not a valid number!");
+// }
+
+// let letter = prompt("Enter any single letter: ");
+
+// letter = letter.toLowerCase();
+
+// switch (letter) {
+//   case "a":
+//     console.log("Vowel");
+//     break;
+//   case "e":
+//     console.log("Vowel");
+//     break;
+//   case "i":
+//     console.log("Vowel");
+//     break;
+//   case "o":
+//     console.log("Vowel");
+//     break;
+//   case "u":
+//     console.log("Vowel");
+//     break;
+//   default:
+//     console.log("Consonant");
+// }
